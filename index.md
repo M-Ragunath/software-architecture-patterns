@@ -1,4 +1,4 @@
-# Software Architecture & Design Patterns — Five-Strand Field Guide
+# Software Architecture & Design Patterns - Five-Strand Field Guide
 
 A practical catalog of reusable approaches. Select patterns to address concrete needs such as change, scale, reliability, consistency, security, and autonomy.
 
