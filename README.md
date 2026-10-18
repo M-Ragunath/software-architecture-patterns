@@ -6,7 +6,7 @@ The guide explains what patterns do, the trade-offs they introduce, and when the
 
 ## Start here
 
-- **[Browse the guide by strand and topic](index.md)** — home page and table of contents for the split guide.
+- **[Browse the guide by strand and topic](index.md)** - home page and table of contents for the split guide.
 
 ## What’s covered
 
