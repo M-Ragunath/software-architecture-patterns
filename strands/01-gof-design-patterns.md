@@ -4,7 +4,7 @@
 
 # 1. GoF Design Patterns
 
-GoF patterns organize object creation, composition, and behavior within an application process. They can affect runtime allocation and execution, but are not memory-management strategies.
+GoF patterns organize object creation, composition and behavior within an application process. They can affect runtime allocation and execution, but are not memory-management strategies.
 
 ## Creational
 

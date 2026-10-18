@@ -38,7 +38,7 @@ flowchart LR
 | Pattern | Intent / caveat |
 |---|---|
 | CQRS | Separate command/write models from query/read models; adds projection and consistency complexity. |
-| Event Sourcing | Store domain events as source of truth and derive state; requires versioning, snapshots, and replay discipline. |
+| Event Sourcing | Store domain events as source of truth and derive state; requires versioning, snapshots and replay discipline. |
 | Materialized View / Projection | Precompute query-oriented state; expose refresh lag. |
 | Cache-Aside | Application checks cache, loads source on miss, then populates cache; define staleness and stampede policy. |
 | Read-Through Cache | Cache abstraction loads from source on miss. |
@@ -85,8 +85,8 @@ sequenceDiagram
 - **Stream processing:** continuously process events; define windows and late-arrival behavior.
 - **Lambda architecture:** combine batch and speed paths, at the cost of duplicated logic.
 - **Kappa architecture:** use an event log and stream path for live processing and replay.
-- **Data contracts:** define ownership, schema, semantics, access, and change policy.
-- **Quality gates:** validate schema, completeness, uniqueness, freshness, and domain rules.
+- **Data contracts:** define ownership, schema, semantics, access and change policy.
+- **Quality gates:** validate schema, completeness, uniqueness, freshness and domain rules.
 
 ---
 

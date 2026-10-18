@@ -32,7 +32,7 @@ flowchart TB
 | API Gateway | Managed client-to-service entry for authentication, quotas, routing, or composition. |
 | Service Discovery | Locate healthy instances dynamically through DNS, registry, or platform facilities. |
 | Load Balancing | Distribute requests across healthy instances at L4 or L7. |
-| Service Mesh | Provide service-to-service traffic management, security, and telemetry in a data plane. |
+| Service Mesh | Provide service-to-service traffic management, security and telemetry in a data plane. |
 | Sidecar Proxy | Enforce mesh behavior beside each service; ambient mesh is another option. |
 | Mutual TLS (mTLS) | Authenticate both endpoints and encrypt traffic using workload identities. |
 | Zero Trust | Verify identity and policy for each access; network location alone is not trust. |
@@ -55,10 +55,10 @@ flowchart LR
 
 ## Network guardrails
 
-- Define trust boundaries, address ownership, DNS, routing, and egress before exceptions accumulate.
+- Define trust boundaries, address ownership, DNS, routing and egress before exceptions accumulate.
 - Use workload identity and short-lived certificates with automated rotation.
 - Apply least privilege to network policies and service identities.
-- Observe latency, errors, saturation, and denied flows at gateways and proxies.
+- Observe latency, errors, saturation and denied flows at gateways and proxies.
 - Encryption protects transport and mTLS authenticates peers; authorization policy still decides what they may do.
 
 ---

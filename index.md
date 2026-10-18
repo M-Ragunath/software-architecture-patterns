@@ -54,7 +54,7 @@ mindmap
    - Data movement and quality
 4. [Platform Infrastructure Patterns](strands/04-platform-infrastructure.md)
    - Compute stability and resilience
-   - Governance, delivery, and operations
+   - Governance, delivery and operations
 5. [Network Patterns](strands/05-network-patterns.md)
    - Topologies
    - Service communication and trust
@@ -62,14 +62,14 @@ mindmap
 ### Cross-cutting topics
 
 - [Pattern fit guide: when to use and when to avoid](topics/pattern-fit.md)
-- [Foundations: theorems, principles, and trade-offs](topics/foundations.md)
-- [Compute and deployment architectures: VMs, containers, and beyond](topics/runtime-architectures.md)
+- [Foundations: theorems, principles and trade-offs](topics/foundations.md)
+- [Compute and deployment architectures: VMs, containers and beyond](topics/runtime-architectures.md)
 - [Security Architecture](topics/security-architecture.md)
-- [Reliability, Availability, Integrity, and InfoSec Architecture](topics/reliability-availability-integrity-infosec.md)
+- [Reliability, Availability, Integrity and InfoSec Architecture](topics/reliability-availability-integrity-infosec.md)
 
 # Combining patterns
 
-A query-heavy service might use **CQRS** and projections, publish changes using a **Transactional Outbox**, distribute them through **Pub-Sub**, and coordinate cross-service work with a **Saga**. At runtime, **Sidecars**, **mTLS**, **Circuit Breakers**, and **Bulkheads** protect communication. A governed **Landing Zone** and **Canary** or **Blue-Green** delivery provide platform controls.
+A query-heavy service might use **CQRS** and projections, publish changes using a **Transactional Outbox**, distribute them through **Pub-Sub** and coordinate cross-service work with a **Saga**. At runtime, **Sidecars**, **mTLS**, **Circuit Breakers** and **Bulkheads** protect communication. A governed **Landing Zone** and **Canary** or **Blue-Green** delivery provide platform controls.
 
 ```mermaid
 flowchart LR
@@ -95,8 +95,8 @@ flowchart LR
 
 1. What actually varies or fails?
 2. Where is the boundary: object, process, data store, platform, or network?
-3. What consistency, freshness, ordering, and duplication are acceptable?
-4. Who owns the schema, event, policy, identity, runbook, and recovery?
+3. What consistency, freshness, ordering and duplication are acceptable?
+4. Who owns the schema, event, policy, identity, runbook and recovery?
 5. How will the pattern be observed, replayed, compensated, or rolled back?
 
 ## Glossary
@@ -112,4 +112,4 @@ flowchart LR
 
 ## Reading path
 
-Start with the strand closest to your design question. Use the fit guide to evaluate trade-offs, the foundations chapter to understand distributed-system limits, and the runtime chapter to compare deployment models.
+Start with the strand closest to your design question. Use the fit guide to evaluate trade-offs, the foundations chapter to understand distributed-system limits and the runtime chapter to compare deployment models.
