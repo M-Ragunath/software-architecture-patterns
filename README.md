@@ -67,6 +67,3 @@ Improvements are welcome when they make the guide more accurate, useful and easy
 - Distinguish formal results from rules of thumb and implementation patterns.
 - Update the split chapter and single-file edition together when changing shared content.
 
-## License
-
-No license has been specified yet. Add a license before redistributing or accepting external contributions.
