@@ -6,8 +6,7 @@ The guide explains what patterns do, the trade-offs they introduce, and when the
 
 ## Start here
 
-- **[Browse the guide by strand and topic](architecture-patterns/index.md)** — home page and table of contents for the split guide.
-- **[Read the complete field guide](architecture-patterns-field-guide.md)** — a single-file edition with all current chapters.
+- **[Browse the guide by strand and topic](index.md)** — home page and table of contents for the split guide.
 
 ## What’s covered
 
@@ -42,11 +41,9 @@ Patterns are useful vocabulary and starting points. They do not replace requirem
 ```text
 .
 ├── README.md
-├── architecture-patterns-field-guide.md   # Complete single-file edition
-└── architecture-patterns/
-    ├── index.md                           # Split guide home page and TOC
-    ├── strands/                           # Five architecture strands
-    └── topics/                            # Cross-cutting chapters
+├── index.md                           # Split guide home page and TOC
+├── strands/                           # Five architecture strands
+└── topics/                            # Cross-cutting chapters
 ```
 
 ## Diagrams and Markdown
